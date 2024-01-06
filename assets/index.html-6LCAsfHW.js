@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-396ede27","path":"/LICENSE/","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1704510800000,"contributors":[{"name":"Ulf Gebhardt","email":"ulf.gebhardt@webcraft-media.de","commits":1}]},"filePathRelative":"LICENSE"}');export{e as data};
