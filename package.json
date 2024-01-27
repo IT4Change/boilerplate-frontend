@@ -99,7 +99,7 @@
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0",
     "@vitest/coverage-v8": "^1.2.1",
-    "@vue/test-utils": "^2.4.3",
+    "@vue/test-utils": "^2.4.4",
     "@vuepress/bundler-vite": "^2.0.0-rc.0",
     "chromatic": "^10.3.1",
     "eslint": "^8.56.0",
