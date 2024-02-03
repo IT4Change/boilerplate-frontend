@@ -101,7 +101,7 @@
     "@vitest/coverage-v8": "^1.2.2",
     "@vue/test-utils": "^2.4.4",
     "@vuepress/bundler-vite": "^2.0.0-rc.2",
-    "chromatic": "^10.6.1",
+    "chromatic": "^10.7.1",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard": "^17.1.0",
