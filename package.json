@@ -152,5 +152,8 @@
     "#context/*": "./renderer/context/*",
     "#types/*": "./types/*",
     "#root/*": "./*"
+  },
+  "engines": {
+    "node": ">=21"
   }
 }
