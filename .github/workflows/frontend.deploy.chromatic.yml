@@ -10,6 +10,11 @@ jobs:
     env:
       CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
     steps:
+      - name: Set Node version
+        uses: actions/setup-node@v4
+        with:
+          node-version: '>=21'
+
       - name: Checkout code
         uses: actions/checkout@v4
         with:
