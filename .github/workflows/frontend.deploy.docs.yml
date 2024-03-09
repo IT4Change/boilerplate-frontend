@@ -12,15 +12,15 @@ jobs:
         with:
           node-version: '>=21'
 
-    - name: Checkout
-      uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@master
 
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        #TARGET_REPO: username/repo
-        #TARGET_BRANCH: master
-        BUILD_SCRIPT: npm install && npm run docs:build
-        BUILD_DIR: build/docs/
-        VUEPRESS_BASE: "boilerplate-frontend"
+      - name: vuepress-deploy
+        uses: jenkey2011/vuepress-deploy@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          #TARGET_REPO: username/repo
+          #TARGET_BRANCH: master
+          BUILD_SCRIPT: npm install && npm run docs:build
+          BUILD_DIR: build/docs/
+          VUEPRESS_BASE: "boilerplate-frontend"
