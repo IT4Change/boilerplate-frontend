@@ -98,7 +98,7 @@
     "@storybook/testing-library": "^0.2.2",
     "@storybook/vue3": "^8.0.0",
     "@storybook/vue3-vite": "^8.0.0",
-    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.2.0",
     "@vitest/coverage-v8": "^1.4.0",
     "@vue/test-utils": "^2.4.5",
