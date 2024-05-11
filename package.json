@@ -94,7 +94,7 @@
     "@storybook/addon-interactions": "^8.0.9",
     "@storybook/addon-links": "^8.0.9",
     "@storybook/blocks": "^8.0.9",
-    "@storybook/test-runner": "^0.17.0",
+    "@storybook/test-runner": "^0.18.0",
     "@storybook/testing-library": "^0.2.2",
     "@storybook/vue3": "^8.0.9",
     "@storybook/vue3-vite": "^8.0.9",
