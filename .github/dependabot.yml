@@ -1,7 +1,7 @@
 version: 2
 updates:
 - package-ecosystem: "github-actions"
-  open-pull-requests-limit: 999
+  open-pull-requests-limit: 99
   directory: "/"
   rebase-strategy: "disabled"
   schedule:
@@ -10,7 +10,7 @@ updates:
     timezone: "Europe/Berlin"
     time: "03:00"
 - package-ecosystem: npm
-  open-pull-requests-limit: 999
+  open-pull-requests-limit: 99
   directory: "/"
   rebase-strategy: "disabled"
   schedule:
@@ -18,8 +18,49 @@ updates:
     day: "saturday"
     timezone: "Europe/Berlin"
     time: "03:00"
+  groups:
+    eslint:
+      applies-to: version-updates
+      patterns:
+        - "?(@)eslint*"
+    stylelint:
+      applies-to: version-updates
+      patterns:
+        - "?(@)stylelint*"
+    storybook:
+      applies-to: version-updates
+      patterns:
+        - "?(@)storybook*"
+    pinia:
+      applies-to: version-updates
+      patterns:
+        - "?(@)pinia*"
+    remark:
+      applies-to: version-updates
+      patterns:
+        - "remark*"
+    sass:
+      applies-to: version-updates
+      patterns:
+        - "sass*"
+    vite:
+      applies-to: version-updates
+      patterns:
+        - "?(@)vite*"
+      exclude-patterns:
+        - "?(@)vitest*"
+    vitest:
+      applies-to: version-updates
+      patterns:
+        - "?(@)vitest*"
+    vue:
+      applies-to: version-updates
+      patterns:
+        - "?(@)vue?(/)*"
+      exclude-patterns:
+        - "vuetify"
 - package-ecosystem: docker
-  open-pull-requests-limit: 999
+  open-pull-requests-limit: 99
   directory: "/"
   rebase-strategy: "disabled"
   schedule:
