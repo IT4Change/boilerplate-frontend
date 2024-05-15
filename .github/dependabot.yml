@@ -22,19 +22,15 @@ updates:
     eslint:
       applies-to: version-updates
       patterns:
-        - "?(@)eslint*"
-    stylelint:
-      applies-to: version-updates
-      patterns:
-        - "?(@)stylelint*"
-    storybook:
-      applies-to: version-updates
-      patterns:
-        - "?(@)storybook*"
+        - "*eslint*"
     pinia:
       applies-to: version-updates
       patterns:
         - "?(@)pinia*"
+    react:
+      applies-to: version-updates
+      patterns:
+        - "react*"
     remark:
       applies-to: version-updates
       patterns:
@@ -43,22 +39,35 @@ updates:
       applies-to: version-updates
       patterns:
         - "sass*"
+    storybook:
+      applies-to: version-updates
+      patterns:
+        - "?(@)storybook*"
+    stylelint:
+      applies-to: version-updates
+      patterns:
+        - "?(@)stylelint*"
+    typescript:
+      applies-to: version-updates
+      patterns:
+        - "ts*"
+        - "?(@)types*"
     vite:
       applies-to: version-updates
       patterns:
         - "?(@)vite*"
-      exclude-patterns:
-        - "?(@)vitest*"
-    vitest:
-      applies-to: version-updates
-      patterns:
-        - "?(@)vitest*"
     vue:
       applies-to: version-updates
       patterns:
         - "?(@)vue?(/)*"
       exclude-patterns:
         - "vuetify"
+        - "?(@)vuepress*"
+        - "vue-tsc"
+    vuepress:
+      applies-to: version-updates
+      patterns:
+        - "?(@)vuepress*"
 - package-ecosystem: docker
   open-pull-requests-limit: 99
   directory: "/"
