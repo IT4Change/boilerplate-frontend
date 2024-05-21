@@ -8,9 +8,10 @@ exports[`TopMenu > renders 1`] = `
     class="v-application__wrap"
   >
     
+    
     <header
       class="v-toolbar v-toolbar--flat v-toolbar--density-default v-theme--light v-locale--is-ltr v-app-bar"
-      style="top: 0px; z-index: 1004; transform: translateY(0%); position: fixed; left: 0px; width: calc(100% - 0px - 0px);"
+      style="top: 0px; z-index: 1004; transform: translateY(0px); position: fixed; left: 0px; width: calc(100% - 0px - 0px);"
     >
       <!---->
       
@@ -168,7 +169,7 @@ exports[`TopMenu > renders 1`] = `
             class="v-col"
           >
             <div
-              class="v-input v-input--horizontal v-input--center-affix v-input--density-default v-locale--is-ltr v-input--dirty v-switch d-flex justify-end mr-5"
+              class="v-input v-input--horizontal v-input--center-affix v-input--density-default v-theme--light v-locale--is-ltr v-input--dirty v-switch d-flex justify-end mr-5"
             >
               <!---->
               <div
@@ -267,6 +268,7 @@ exports[`TopMenu > renders 1`] = `
       </transition-stub>
       
     </header>
+    
     
   </div>
 </div>
