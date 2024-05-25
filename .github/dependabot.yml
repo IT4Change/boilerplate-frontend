@@ -22,7 +22,13 @@ updates:
     eslint:
       applies-to: version-updates
       patterns:
-        - "*eslint*"
+        - "@eslint-community/eslint-plugin-eslint-comments"
+        - "@intlify/eslint-plugin-vue-i18n"
+        - "@typescript-eslint/*"
+        - "eslint-*"
+      exclude-patterns:
+        - "eslint"
+        - "eslint-plugin-vitest"
     pinia:
       applies-to: version-updates
       patterns:
