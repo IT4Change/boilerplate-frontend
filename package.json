@@ -103,7 +103,7 @@
     "@vue/test-utils": "^2.4.6",
     "@vuepress/bundler-vite": "^2.0.0-rc.9",
     "chromatic": "^11.4.0",
-    "eslint": "^9.3.0",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
