@@ -14,7 +14,9 @@ frontend-test-build-docker: &frontend-test-build-docker
 
 frontend-test-build-docs: &frontend-test-build-docs
   - '**/*.md'
+  - '.github/workflows/frontend.deploy.docs.yml'
   - '.vuepress/*'
+  - 'package.json'
 
 frontend-test-build-storybook: &frontend-test-build-storybook
   - '**/*'

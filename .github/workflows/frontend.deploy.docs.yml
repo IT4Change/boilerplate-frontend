@@ -4,7 +4,25 @@ on:
     branches:
       - master
 jobs:
+  files-changed:
+      name: Detect File Changes
+      runs-on: ubuntu-latest
+      outputs:
+        changes: ${{ steps.changes.outputs.frontend-test-build-docs }}
+      steps:
+        - uses: actions/checkout@master
+
+        - name: Check for e2e docs file changes
+          uses: dorny/paths-filter@v3.0.2
+          id: changes
+          with:
+            token: ${{ github.token }}
+            filters: .github/file-filters.yml
+            list-files: shell
+
   build-and-deploy:
+    if: needs.files-changed.outputs.changes == 'true'
+    needs: files-changed
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
