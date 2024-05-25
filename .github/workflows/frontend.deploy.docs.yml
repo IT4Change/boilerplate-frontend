@@ -12,7 +12,7 @@ jobs:
       steps:
         - uses: actions/checkout@master
 
-        - name: Check for e2e docs file changes
+        - name: Check for frontend docs file changes
           uses: dorny/paths-filter@v3.0.2
           id: changes
           with:
