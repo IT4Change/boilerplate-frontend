@@ -8,6 +8,7 @@ exports[`AboutPage > renders 1`] = `
     class="v-application__wrap"
   >
     
+    
     <main
       class="v-main bg-grey-lighten-3"
       style="--v-layout-left: 0px; --v-layout-right: 0px; --v-layout-top: 0px; --v-layout-bottom: 0px;"
@@ -62,6 +63,7 @@ exports[`AboutPage > renders 1`] = `
       </div>
       
     </main>
+    
     
   </div>
 </div>
