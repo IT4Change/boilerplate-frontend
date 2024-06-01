@@ -68,7 +68,7 @@
     "@types/node": "^20.13.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/server-renderer": "3.4.27",
-    "@vuepress/theme-default": "^2.0.0-rc.30",
+    "@vuepress/theme-default": "^2.0.0-rc.33",
     "compression": "^1.7.4",
     "cross-env": "^7.0.3",
     "express": "^4.19.2",
