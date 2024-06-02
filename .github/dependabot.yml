@@ -64,6 +64,7 @@ updates:
         - "*vite*"
       exclude-patterns:
         - "@vuepress/bundler-vite"
+        - "eslint-plugin-vitest"
     vue:
       applies-to: version-updates
       patterns:
